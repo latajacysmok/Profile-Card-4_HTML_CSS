@@ -1,0 +1,169 @@
+* 
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+
+body 
+{
+	background: #ff9900;
+}
+
+.card
+{
+	width: 400px;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #f1f1f1;
+	box-shadow: 0 0 20px #000000b3;
+}
+
+.card-header
+{
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+
+.card-header img
+{
+	height: 100%;
+}
+
+.card-header .cover
+{
+	background: #ffad33b3;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%
+}
+
+.card-header .menu{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	display: flex;
+	align-items: center;
+	color: white;
+	opacity: 0.7;
+	font-size: 32px;
+	cursor: pointer;
+}
+
+.card-header .menu span{
+	font-size: 32px;
+}
+
+.card-header .menu ul{
+	background: #333333b3;
+	padding: 6px 0;
+	margin: 0 14px;
+	display: none;
+}
+
+.card-header .menu:hover > ul{
+	display: block;
+}
+
+.card-header .menu ul li{
+	float: left;
+	width: 30px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.card-header .name{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	color: white;
+	cursor: pointer;
+}
+
+.card-header .last{
+	display: block;
+	font-size: 36px;
+}
+
+.card-header .first{
+	display: block;
+	font-size: 48px;
+}
+
+.container{
+	padding: 20px;
+	overflow: hidden;
+}
+
+.left-section{
+	width: 260px;
+	overflow: hidden;
+	float: left;
+}
+
+.left-section h3{
+	color: #ff9900;
+}
+
+.left-section p{
+	margin: 30px 0;
+}
+
+.left-section .follow{
+	width: 100px;
+	background: #ff9900;
+	border-radius: 12px;
+	color: white;
+	text-align: center;
+	display: block;
+	padding: 8px 0;
+	transition: 0.2s all;
+}
+
+.left-section .follow:hover{
+	background: #995c00;
+}
+
+.right-section{
+	overflow: hidden;
+	float: right;
+	text-align: right;
+}
+
+.item{
+	margin: 6px 0;
+}
+
+.num{
+	display: block;
+	font-size: 30px;
+}
+
+.word{
+	font-size: 16px;
+}
+
+.icon-facebook:hover{
+	background: #4862a3;
+	border-radius: 50%;
+	transform: scale(1.1);
+}
+
+.icon-twitter:hover{
+	background: #00aff0;
+	border-radius: 50%;
+	transform: scale(1.1);
+}
+
+.icon-telegram:hover{
+	background: #01924b;
+	border-radius: 50%;
+	transform: scale(1.1);
+}
